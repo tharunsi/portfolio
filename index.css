@@ -80,8 +80,13 @@ span{
 
 .images img{
     height: 100%;
-    position: absolete;
+    position: absolute;
     left: 50%;
     bottom: 0;
     transform: translateX(-50%);
+}
+
+.wrap{
+    display: flex;
+    
 }
