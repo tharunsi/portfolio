@@ -72,10 +72,13 @@ span{
 .images{
     width: 55%;
     height: 40%;
-    
     margin-bottom: 40px;
     margin-right: 21px;
 
+}
+
+,images img{
+    margin-bottom: 50px;
 }
 
 
