@@ -70,21 +70,15 @@ span{
 }
 
 .images{
-    width: 45%;
-    height: 20%;
-    position:absolute;
-    bottom: 0;
-    right: 100px;
+    width: 55%;
+    height: 40%;
+    
+    margin-bottom: 40px;
+    margin-right: 21px;
 
 }
 
-.images img{
-    height: 100%;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-}
+
 
 .wrap{
     display: flex;
