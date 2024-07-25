@@ -226,50 +226,6 @@ section{
     color: #ea5445;
 }
 
-.contact {
-    padding: 60px 13%;
-    background: #1d1c1b;
-    color: #fff;
-}
-
-.contact h2 {
-    text-align: center;
-    margin-bottom: 40px;
-    font-size: 36px;
-}
-
-.contact form {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.contact label {
-    display: block;
-    margin-bottom: 10px;
-    font-size: 18px;
-}
-
-.contact input, .contact textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    background: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-}
-
-.contact input[type="submit"] {
-    background: #ea5445;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-.contact input[type="submit"]:hover {
-    background: #d03e2a;
-}
 
 @media(max-width:1800px){
     header{
