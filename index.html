@@ -10,17 +10,18 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     </head>
     <body>
         <header>
          <a href="#" class="logo">Portfolio</a>
-
+        
          <ul class="navlist">
             <li><a href="#">Home</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Portfolio</a></li>
             <li><a href="#">Skill</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
          </ul>
 
          <div class="nav-right">
@@ -31,6 +32,7 @@
 
         <section class="hero">
             <div class="hero-text">
+                
                 <h6>Hello, <span>my name is</span></h6>
                 <h1><span>Tharun</span> Shanmugam</h1>
                 <h4>I am an <span>ECE student</span></h4>
@@ -57,10 +59,25 @@
         </section>
 
         <div class="scroll">
-            <a href="#"><i class="ri-scroll-to-bottom-fill">Scroll Bottom</i></a>
+            <a href="#contact"><i class="ri-scroll-to-bottom-fill">Scroll Bottom</i></a>
         </div>
+        <br><br><br><br>
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <input type="submit" value="Send">
+            </form>
+        </section>
 
-        <script>
+        <script src="index.js">
+            
+
             let menu = document.querySelector('#menu-icon');
             let navlist = document.querySelector('.navlist');
 
