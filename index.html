@@ -77,25 +77,27 @@
             </form>
         </section>
 
-        <script src="index.js">
+        <script>
             
+            document.addEventListener("DOMContentLoaded", function() { 
 
-            let menu = document.querySelector('#menu-icon');
-            let navlist = document.querySelector('.navlist');
+              let menu = document.querySelector('#menu-icon');
+              let navlist = document.querySelector('.navlist');
 
-            menu.addEventListener('click', () => {
-                menu.classList.toggle('bx-x');
-                navlist.classList.toggle('open');
+              menu.addEventListener('click', () => {
+                  menu.classList.toggle('bx-x');
+                  navlist.classList.toggle('open');
+              });
+
+             document.getElementById('downloadCVButton').addEventListener('click', function() {
+                  const link = document.createElement('a');
+                  link.href = 'tharun_si_resume.pdf';
+                  link.download = 'Tharun-CV.pdf';
+                  document.body.appendChild(link);
+                  link.click();
+                  document.body.removeChild(link);
+              });
             });
-
-            document.getElementById('downloadCVButton').addEventListener('click', function() {
-    const link = document.createElement('a');
-    link.href = 'tharun_si_resume.pdf';
-    link.download = 'Tharun-CV.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  });
         </script>
     </body>
 </html>
