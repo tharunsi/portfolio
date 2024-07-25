@@ -46,7 +46,7 @@
                 </div>
 
                 <div class="hero-btn">
-                    <a href="#" class="btn">Download CV</a>
+                    <a href="tharun_si_resume.pdf" download="Tharun-cv.pdf" id="downloadCVButton" class="btn">Download CV</a>
                     <a href="#" class="btn2">My Skills</a>
                 </div>
             </div>
@@ -68,6 +68,15 @@
                 menu.classList.toggle('bx-x');
                 navlist.classList.toggle('open');
             });
+
+            document.getElementById('downloadCVButton').addEventListener('click', function() {
+    const link = document.createElement('a');
+    link.href = 'tharun_si_resume.pdf';
+    link.download = 'Tharun-CV.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
         </script>
     </body>
 </html>
