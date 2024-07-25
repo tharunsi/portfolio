@@ -61,12 +61,12 @@
 //console.log(e);
 //
 
-   let number = [];  //empty array
+ //  let number = [];  //empty array
 
-   let number1 = [1,2,3,4,5]; // array with value
+ //  let number1 = [1,2,3,4,5]; // array with value
 
-   let number2 = [1,2];
-   number2.push(3);    // we can push the element later
-   number3.push(4);
+ //  let number2 = [1,2];
+ //  number2.push(3);    // we can push the element later
+ //  number3.push(4);
 
-   console
+ //  console
