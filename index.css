@@ -1,4 +1,5 @@
 *{
+    
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -225,6 +226,7 @@ section{
     transform: translateY(-7px);
     color: #ea5445;
 }
+
 
 
 @media(max-width:1800px){
