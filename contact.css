@@ -13,7 +13,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: #00103f;
+    background: url("contact_bg.jpg");
+    background-repeat: none;
+    background-size: 1300px;
 }
 
 .contact_1 .content_1 {
@@ -36,7 +38,8 @@
 }
 
 .container_1 .contactInfo_1 {
-    width: 50%;
+    width: 45%;
+    padding: 80px;;
     display: flex;
     flex-direction: column;
 }
